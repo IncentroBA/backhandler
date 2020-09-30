@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="incentro.backhandler.Backhandler" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Native"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Backhandler</name>
+    <description>Disregard back events on page</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="disableBack" type="attribute" required="true">
+                <caption>Disable</caption>
+                <description>Boolean for enabling/disabling backhandler</description>
+                <attributeTypes>
+                    <attributeType name="Boolean"/>
+                </attributeTypes>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>

@@ -1,2 +1,17 @@
-# backhandler
-Widget to disable back button on Android devices when using Mendix Native
+## Backhandler
+[Disregard back events on page]
+
+## Features
+[feature highlights]
+
+## Usage
+[step by step instructions]
+
+## Demo project
+[link to sandbox]
+
+## Issues, suggestions and feature requests
+[link to GitHub issues]
+
+## Development and contribution
+[specify contribute]
