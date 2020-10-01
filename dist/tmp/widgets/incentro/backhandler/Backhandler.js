@@ -112,14 +112,14 @@ class Backhandler extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         return (Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(react_native__WEBPACK_IMPORTED_MODULE_1__["View"], null));
     }
     componentWillMount() {
-        if (this.props.disableBack) {
-            react_native__WEBPACK_IMPORTED_MODULE_1__["BackHandler"].addEventListener('hardwareBackPress', this.handleBackButtonClick);
-        }
+        react_native__WEBPACK_IMPORTED_MODULE_1__["BackHandler"].addEventListener('hardwareBackPress', this.handleBackButtonClick);
     }
     componentWillUnmount() {
         react_native__WEBPACK_IMPORTED_MODULE_1__["BackHandler"].removeEventListener('hardwareBackPress', this.handleBackButtonClick);
     }
     handleBackButtonClick() {
+        var _a;
+        (_a = this.props.onBack) === null || _a === void 0 ? void 0 : _a.execute();
         return true;
     }
 }

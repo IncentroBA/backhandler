@@ -7,14 +7,11 @@
     <description>Disregard back events on page</description>
     <icon/>
     <properties>
-        <propertyGroup caption="General">
-            <property key="disableBack" type="attribute" required="true">
-                <caption>Disable</caption>
-                <description>Boolean for enabling/disabling backhandler</description>
-                <attributeTypes>
-                    <attributeType name="Boolean"/>
-                </attributeTypes>
+        <propertyGroup caption="Events">
+            <property key="onBack" type="action" required="false">
+                <caption>On backpress</caption>
+                <description>Flow to call when hardware backbutton is used.</description>
             </property>
-        </propertyGroup>
+            </propertyGroup>
     </properties>
 </widget>

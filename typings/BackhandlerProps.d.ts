@@ -3,16 +3,16 @@
  * WARNING: All changes made to this file will be overwritten
  * @author Mendix UI Content Team
  */
-import { EditableValue } from "mendix";
+import { ActionValue } from "mendix";
 
 export interface BackhandlerProps<Style> {
     name: string;
     style: Style[];
-    disableBack: EditableValue<boolean>;
+    onBack?: ActionValue;
 }
 
 export interface BackhandlerPreviewProps {
     class: string;
     style: string;
-    disableBack: string;
+    onBack: {} | null;
 }

@@ -16,6 +16,7 @@ export class Backhandler extends Component<BackhandlerProps<CustomStyle>> {
         this.handleBackButtonClick = this.handleBackButtonClick.bind(this);
     }
 
+    //We have to have a render block, or else Mendix Native will crash. Render block is expected.
     render(): ReactNode {
         return (
         <View></View>
@@ -23,9 +24,7 @@ export class Backhandler extends Component<BackhandlerProps<CustomStyle>> {
     }
 
     componentWillMount() {
-        if (this.props.disableBack) {
-            BackHandler.addEventListener('hardwareBackPress', this.handleBackButtonClick);
-        }  
+        BackHandler.addEventListener('hardwareBackPress', this.handleBackButtonClick);
     }
     
     componentWillUnmount() {
@@ -33,6 +32,7 @@ export class Backhandler extends Component<BackhandlerProps<CustomStyle>> {
     }
     
     handleBackButtonClick() {
+        this.props.onBack?.execute();
         return true;
     }
 }

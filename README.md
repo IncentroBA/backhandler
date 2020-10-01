@@ -1,25 +1,17 @@
 ## Backhandler
-Widget to disregard back events on page when using Mendix Native.
+[Disregard back events on page]
+
+## Features
+[feature highlights]
 
 ## Usage
-For development:
-
-Create customwidgets folder in root of project directory
-Git clone this repo into customwidgets folder
-Open command prompt in cloned folder
-npm i
-npm run dev / npm run build
-Widget can now be used inside Mendix.
-
-For plain usage:
-
-Copy MPK file in releases to widgets directory.
+[step by step instructions]
 
 ## Demo project
-Not available yet.
+[link to sandbox]
 
 ## Issues, suggestions and feature requests
-https://github.com/IncentroBA/backhandler/issues
+[link to GitHub issues]
 
 ## Development and contribution
-N/A
+[specify contribute]
