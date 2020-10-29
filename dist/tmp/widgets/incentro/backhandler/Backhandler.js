@@ -111,7 +111,7 @@ class Backhandler extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     render() {
         return (Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(react_native__WEBPACK_IMPORTED_MODULE_1__["View"], null));
     }
-    componentWillMount() {
+    componentDidMount() {
         react_native__WEBPACK_IMPORTED_MODULE_1__["BackHandler"].addEventListener('hardwareBackPress', this.handleBackButtonClick);
     }
     componentWillUnmount() {

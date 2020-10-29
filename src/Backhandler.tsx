@@ -23,7 +23,7 @@ export class Backhandler extends Component<BackhandlerProps<CustomStyle>> {
         )
     }
 
-    componentWillMount() {
+    componentDidMount() {
         BackHandler.addEventListener('hardwareBackPress', this.handleBackButtonClick);
     }
     
