@@ -22,4 +22,4 @@ Not available yet.
 https://github.com/IncentroBA/backhandler/issues
 
 ## Development and contribution
-N/A
+[Bart Onstee](https://github.com/bartonstee)
